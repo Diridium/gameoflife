@@ -1,0 +1,127 @@
+John Conway Game of Life
+
+Herbivores
+
+	For a space that is 'populated':
+		Each cell with one or no neighbors dies, as if by loneliness.
+		Each cell with four or more neighbors dies, as if by overpopulation.
+		Each cell with two or three neighbors survives.
+	For a space that is 'empty' or 'unpopulated'
+		Each cell with three neighbors becomes populated.
+
+Carnivores
+	
+	Se todos os vizinhos forem pasto ele anda em direção ao herbívoro mais próximo.
+	Se tem um herbívoro vizinho, o herbívoro morre e ele ocupa o lugar dele.
+	Se ele der 5 passos sem comer, ele morre de fome.
+	Ele só anda horizontalmente ou verticalmente.
+	Carnívoros não podem colidir.	
+	
+16/5/2012
+
+Presentes:
+	- Fabricio Buzeto
+	- Arthur Almeida
+	- Felipe Moura
+	- Rafael Cruz
+	
+=]
+	- O Jogo é legal
+	- Pensamos passo a passo 
+=[
+	- Só o Fabs codificou (Kata forçado).
+		- Tentar fazer handori na próxima sessão 
+		
+		
+
+23/05/2012
+
+Presentes:
+	- Felipe Moura
+	- Lucas Lins
+	- Arthur Almeida
+	- Fabricio Buzeto
+
+
+=]
+	- Todo mundo codificou
+	- Problema ficou mais complexo (mais instigante)
+	- Paramos para discutir o problema
+	
+=[ 
+	- Comitamos pouco
+	- Estamos usando testes "muletas"
+	- O horário é difícil
+	- Galera tem vergonha de falar que está no dojo
+	- Tomate de 7 min foi pequeno demais (podíamos tentar de 10 min)
+	
+	
+30/05/2012
+
+Presentes:
+	- Matheus Fonseca
+	- Victor Cotrim
+	- Flavio de Sousa
+	- Athos RIbeiro
+	- Eduardo Castro
+	- Fabricio Buzeto
+	
+	"Código em":https://github.com/dojobrasilia/GameOfLifeJava
+	
+=]	
+	- Matheus topou codificar
+		- Todo mundo codificou
+		- Primeiro dojo da galera
+	- Conseguimos visualizar os testes que estávamos "pulando" e corrigir.
+		- TDD ajudou a descobrir esses caminhos.
+
+=[
+	- Comitamos pouco 
+	- Fabs interrompeu bastante
+
+06/06/2012
+
+Presentes:
+	- Fabricio Buzeto
+	- Charles Oliveira
+	- Flavio de Sousa
+	- Victor Cotrim
+	- Caique Rodrigues
+	
+=]
+	- Todo mundo codou!!!
+	- Ideias fluiram
+	- Carnivoro come!
+	- TDD mostrou o caminho
+	- Mais convertidos ao TDD Way!!
+	
+=[
+	- Gente chegando atrasada
+	- Ninguem respeita a hora dos outros
+	- Gente nao dispara o relogio na hora dele
+	- Nao respeitamos a regra dos sinais
+
+13/06/2012
+
+Presentes:
+	-Victor Cotrim
+	-Arthur Almeida
+	-Felipe Moura
+	-fabs
+	-Diogo Lisita
+	-Radamés Roriz
+	-Flávio de Sousa
+	-Delfino Gomes
+=]
+	-Terminamos o escopo original de digimon.
+	-Começamos no horário
+	-Participante novo
+	-Casa cheia
+	-Discussão sobre TDD e regra do silêncio
+	-Discussão sobre o próximo tema
+=[
+	-Poucos commits
+	-Terminamos com teste falhando
+	-Não respeitamos a regra do silêncio
+
+Obs: Próxima quarta a gente continua com um novo tema!!!
